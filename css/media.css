@@ -1,0 +1,244 @@
+@media screen and (max-width: 1250px){
+	.opit .container{
+		max-width: 1000px;
+	}
+	.opit .container .left{
+		width: 440px;
+	}
+	.text_img .container{
+		flex-direction: column;
+	}
+	.text_img .container .pol_contenta{
+		margin-bottom: 30px;
+	}
+}
+@media screen and (max-width: 1100px){
+	.header_contacts .container{
+		flex-wrap: wrap;
+		justify-content: space-around;
+	}
+	.header_contacts a{
+		margin-bottom: 16px;
+	}
+	.header_contacts{
+		padding-bottom: 0;
+	}
+	.container{
+		width: calc(100% - 20px);
+	}
+	.opit .container{
+		flex-direction: column;
+	}
+	.opit .container .left, .opit p, .opit .container .right{
+		width: 100%;
+	}
+	.opit .container .left{
+		margin-bottom: 50px;
+		padding-top: 0;
+	}
+	.opit .right .img_block{
+		width: calc(50% - 10px);
+	}
+	.opit .right .opit_img{
+		width: 100%;
+	}
+	.video iframe{
+		width: 100%;
+	}
+	.uslugi .container{
+		flex-wrap: wrap;
+	}
+	.uslugi .item{
+		width: calc(50% - 10px);
+		display: flex;
+		flex-direction: column;
+		margin-bottom: 50px;
+	}
+	.uslugi .item h3{
+		order: 2;
+		margin: 0;
+		background-color: #60578A;
+		color: #fff;
+		line-height: 1.7;
+		font-size: 19px;
+		text-transform: uppercase;
+		font-weight: normal;
+	}
+	.uslugi .item a{
+		order: 1;
+		margin: 0;
+	}
+	.uslugi .item img{
+		height: 100%;
+	}
+	.contacts .container{
+		flex-wrap: wrap;
+		justify-content: space-around;
+	}
+	.contacts .item{
+		margin-bottom: 30px;
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+}
+@media screen and (max-width: 960px) {
+	.owl-item .slide .slide_content{
+		left: 70px;
+		width: calc(100% - 140px);
+	}
+	footer .container{
+		flex-wrap: wrap;
+		justify-content: flex-start;
+	}
+	footer .row{
+		margin: 20px;
+	}
+	.team_items .item{
+		width: calc(50% - 10px);
+	}
+	.text_img .container .pol_contenta img{
+		max-width: 100%;
+	}
+	.tablici .container{
+		flex-wrap: wrap;
+	}
+	.table50, .table33{
+		width: 100%;
+		margin-bottom: 30px;
+	}
+	.tablici .container .text{
+		width: 100%;
+	}
+}
+@media screen and (max-width: 800px){
+	.best .container{
+		padding-left: 0;
+	}
+	.header_menu{
+		display: none;
+	}
+	.header_menu_button{
+		display: flex;
+	}
+	.header_lang{
+		margin-top: 34px;
+	}
+	.page_main_section{
+		margin-bottom: 20px;
+	}
+}
+@media screen and (max-width: 660px){
+	.img_text{
+		flex-direction: column;
+	}
+	.zapis_section h2{
+		font-size: 34px;
+	}
+	.pol_contenta{
+		margin-left: 0;
+		margin-right: 0;
+	}
+	.team_items .item{
+		width: 100%;
+		margin-left: 0;
+		margin-right: 0;
+	}
+	.team_items .item .bg_img{
+		background-position: top center;
+	}
+	.img_text img{
+		max-width: 100%;
+	}
+}
+@media screen and (max-width: 613px){
+	header{
+		height: 199px;
+	}
+	.popup_form{
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+}
+@media screen and (max-width: 510px){
+	.page_main_section h1{
+		font-size: 52px;
+	}
+	.owl-nav .owl-prev{
+		left: 10px;
+	}
+	.owl-nav .owl-next{
+		right: 10px;
+	}
+	.owl-item .slide .slide_content{
+		left: 32px;
+		width: calc(100% - 64px);
+	}
+	.owl-item .slide .slide_content h3{
+		font-size: 26px;
+	}
+	.uslugi .item, .opit .right .img_block{
+		width: 100%;
+	}
+	.opit .right{
+		flex-wrap: wrap;
+	}
+	.uslugi{
+		padding: 20px 0px;
+	}
+	footer .row{
+		margin: 20px 0;
+	}
+	.footer_bottom{
+		display: flex;
+		flex-direction: column;
+		padding: 10px;
+	}
+	.footer_bottom a{
+		margin: 0;
+	}
+	.contacts .item{
+		width: 100%;
+		margin-left: 0;
+		margin-right: 0;
+	}
+	.contacts .item li span{
+		width: calc(100% - 70px);
+	}
+}
+@media screen and (max-width: 425px){
+	header{
+		height: 226px;
+	}
+	.do_posle_images .container a{
+		width: 100%;
+	}
+}
+@media screen and (max-width: 398px){
+	header{
+		height: 258px;
+	}
+	.header_lang{
+		flex-direction: column;
+		margin-top: 18px;
+	}
+	.header_lang a{
+		margin: 5px 10px;
+	}
+	.popup h2{
+		font-size: 34px;
+	}
+	.page_main_section h1{
+		font-size: 46px;
+	}
+}
+@media screen and (max-width: 1000px){
+	.team_items .item .team_item_content, .team_items .item:hover .team_item_content{
+		right: 10px;
+	}
+	.team_items .item:hover .bg_img{
+		right: 0;
+	}
+	.team_items .item .bg_over{
+		background-color: rgba(0,0,0,0.6);
+	}
+} 
